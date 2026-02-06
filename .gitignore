@@ -1,9 +1,30 @@
+# Python virtual environment
 venv/
+env/
+
+# Python cache and bytecode
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+
+# Distribution / Packaging
 *.egg-info/
+dist/
+build/
+
+# System files
 .DS_Store
 .vscode/
+.idea/
+
+# Environment variables
 .env
+
+# Logs
 *.log
+
+# Project Outputs (IMPORTANT: Ignore generated images)
+# Your script generates these patterns in main.py
+*_aligned.png
+*_aligned_diff.png
